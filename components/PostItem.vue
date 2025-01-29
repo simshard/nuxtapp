@@ -8,7 +8,7 @@
       <div>&middot;</div>
       <div>{{props.post.user.name}}</div>
     </div>
-    <div class="post-preview leading-relaxed mt-4 line-clamp-3">
+    <div class="post-preview leading-relaxed mt-4 line-clamp-2">
       {{props.post.content}}
     </div>
     <div class="mt-4">

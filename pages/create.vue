@@ -4,10 +4,9 @@
       v-if="errors.length > 0"
       className="mb-4 list-disc list-inside text-sm text-red-600"
     >
-      <pre> {{ errors }}</pre>
-      <!-- <li v-for="(error, index) in errors" :key="index">
+      <li v-for="(error, index) in errors" :key="index">
         {{ error }}
-      </li> -->
+      </li>
     </ul>
     <form action="#" class="space-y-6" @submit.prevent="createPost">
       <div>

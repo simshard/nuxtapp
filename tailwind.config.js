@@ -4,10 +4,11 @@ export default {
     './pages/**/*.{html,js}',
     './components/**/*.{html,js}',
     './layouts/**/*.{html,js}',
+    // './plugins/**/*.{js,ts}',
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  // plugins: [require('@tailwindcss/line-clamp')],
 }
 
